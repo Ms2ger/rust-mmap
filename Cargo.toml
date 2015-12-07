@@ -1,6 +1,6 @@
 [package]
 name = "mmap"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Rick Branson <rick@diodeware.com>", "The Rust Project Developers"]
 license = "MIT"
 readme = "README.md"
@@ -11,5 +11,5 @@ A library for dealing with memory-mapped I/O
 """
 
 [dependencies]
-libc = "0.1.6"
+libc = "0.2"
 tempdir = "0.3"
